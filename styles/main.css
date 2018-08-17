@@ -1,0 +1,45 @@
+
+html,body {
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: bolder;
+}
+
+.b_image {
+  margin: 0;
+  background: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.container-jumbotron {
+  max-height: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.jumbotron {
+  padding: 0;
+  opacity: .7;
+  vertical-align: middle;
+}
+
+.backgroundRow{
+  background-color: #ffffff;
+  opacity: 0.6;
+  font-family: 'Open Sans','Nunito', 'Roboto','Lato','Oswald','Raleway', sans-serif;
+  border-radius: 10px;
+  padding: 20px;
+  margin: auto;
+}
+
+#credits {
+  position: absolute;
+  width: 5%;
+  bottom: 1px;
+}
